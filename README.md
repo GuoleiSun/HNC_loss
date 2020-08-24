@@ -20,7 +20,7 @@ If you find this repository helpful, please consider citing:
 
   title={Fixing Localization Errors to Improve Image Classification},
   
-  author={Sun, Guolei and Khan, Salman and Li, Wen and Cholakkal, Hisham and Khan, Fahad and Gool, Luc Van},
+  author={Sun, Guolei and Khan, Salman and Li, Wen and Cholakkal, Hisham and Khan, Fahad and Van Gool, Luc},
   
   journal={ECCV},
   
