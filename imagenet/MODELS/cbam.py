@@ -955,7 +955,7 @@ class CBAM_new_noconv(nn.Module):
         return y*x
 
 
-from .peak_stimulation import PeakStimulation_ori4_6_3
+#from .peak_stimulation import PeakStimulation_ori4_6_3
 import random
 class CBAM_new_group32_hs2(nn.Module):
     def __init__(self, gate_channels, reduction_ratio=16, pool_types=['avg', 'max'], no_spatial=False):
