@@ -13,6 +13,16 @@ Our loss can be found in [HNC_mse](https://github.com/GuoleiSun/HNC_loss/blob/5d
 1. prepare ImageNet dataset
 2. for running scripts, please refer to './imagenet/running-script.sh'
 
+### Citation
+If you find this repository helpful, please consider citing:
+@article{sun2020fixing,
+  title={Fixing Localization Errors to Improve Image Classification},
+  author={Sun, Guolei and Khan, Salman and Li, Wen and Cholakkal, Hisham and Khan, Fahad and Gool, Luc Van},
+  journal={ECCV},
+  publisher = {Springer},
+  year={2020}
+}
+
 ### Acknowledgements 
 
 This repository is based on [CBAM](https://github.com/Jongchan/attention-module), thanks for their excellent work.
