@@ -15,11 +15,15 @@ Our loss can be found in [HNC_mse](https://github.com/GuoleiSun/HNC_loss/blob/5d
 
 ### Citation
 If you find this repository helpful, please consider citing:
+
 @article{sun2020fixing,
+
   title={Fixing Localization Errors to Improve Image Classification},
+  
   author={Sun, Guolei and Khan, Salman and Li, Wen and Cholakkal, Hisham and Khan, Fahad and Gool, Luc Van},
+  
   journal={ECCV},
-  publisher = {Springer},
+  
   year={2020}
 }
 
