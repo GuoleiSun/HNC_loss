@@ -9,7 +9,7 @@ To use our loss, please first generate CAMs following this [line of code](https:
 
 Our loss can be found in [HNC_mse](https://github.com/GuoleiSun/HNC_loss/blob/5d67612cb52780cc04d63344ee6c6672e3ef2a4b/imagenet/train_imagenet_cam_loss.py#L65) and [HNC_kd](https://github.com/GuoleiSun/HNC_loss/blob/5d67612cb52780cc04d63344ee6c6672e3ef2a4b/imagenet/train_imagenet_cam_loss.py#L94). The usage of loss can be found [here](https://github.com/GuoleiSun/HNC_loss/blob/05459be169e0211e3c7dd9b2d9fd1b508712aecd/imagenet/train_imagenet_cam_loss.py#L277), where our loss takes two arguments: CAMs and ground-truth label.
 
-Tips: 1. you may need to tune lambda, which is the weight balancing both HNC loss and cross entropy loss. Higher weight means higher influence of HNC loss; 2. you may need to tune k, which is the number of negative CAMs to suppress. Smaller k means focusing on more confusing classes.
+Note: 1. you may need to tune lambda, which is the weight balancing both HNC loss and cross entropy loss. Higher weight means higher influence of HNC loss; 2. you may need to tune k, which is the number of negative CAMs to suppress. Smaller k means focusing on more confusing classes.
 
 ### ImageNet classification
 1. prepare ImageNet dataset
