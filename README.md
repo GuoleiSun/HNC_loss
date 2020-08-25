@@ -13,7 +13,9 @@ Note: 1. you may need to tune lambda, which is the weight balancing both HNC los
 
 ### ImageNet classification
 1. prepare ImageNet dataset
+
 2. for running scripts, please refer to './imagenet/running-script.sh'
+
 3. results
 
 ### Citation
