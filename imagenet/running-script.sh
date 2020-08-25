@@ -1,3 +1,5 @@
+## change the image path and run the corresponding command line for different backbone
+
 image_path=./data/images
 
 ## For ResNet-101
