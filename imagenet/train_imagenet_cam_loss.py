@@ -53,8 +53,8 @@ parser.add_argument("--seed", type=int, default=1234, metavar='BS', help='input 
 parser.add_argument("--prefix", type=str, required=True, metavar='PFX', help='prefix for logging & checkpoint saving')
 parser.add_argument('--evaluate', dest='evaluate', action='store_true', help='evaluation only')
 parser.add_argument('--att-type', type=str, choices=['no_atten'], default=None)
-parser.add_argument('--weight', type=float, default=0.00)
-parser.add_argument('--loss-type', type=str, choices=['mse','kd'],default=None)
+parser.add_argument('--weight', type=float, default=0.00, help='weight (lambda) for HNC loss')
+parser.add_argument('--loss-type', type=str, choices=['mse','kd'],default=None, help='loss type')
 
 best_prec1 = 0
 

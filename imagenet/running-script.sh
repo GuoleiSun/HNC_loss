@@ -14,4 +14,3 @@ python train_imagenet_cam_loss.py --ngpu 8 --workers 20 --arch resnet --depth 15
 python train_imagenet_cam_loss.py --ngpu 8 --workers 20 --arch resnet --depth 152 --epochs 120 --batch-size 256 --lr 0.1 --att-type no_atten --weight 0.0048 --loss-type kd  --prefix RESNET152_IMAGENET_ori_cam_loss_kd $image_path
 
 
-
