@@ -12,7 +12,7 @@ Our loss can be found in [HNC_mse](https://github.com/GuoleiSun/HNC_loss/blob/5d
 ### ImageNet classification
 1. prepare ImageNet dataset
 2. for running scripts, please refer to './imagenet/running-script.sh'
-3. 
+3. results
 
 ### Citation
 If you find this repository helpful, please consider citing:
