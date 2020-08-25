@@ -1,4 +1,4 @@
-## change the image path and run the corresponding command line for different backbone
+## change the image_path to be the ImageNet path in your machine and run the corresponding command line for different backbone
 
 image_path=./data/images
 
