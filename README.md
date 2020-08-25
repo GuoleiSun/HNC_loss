@@ -16,8 +16,6 @@ Note: 1. you may need to tune lambda, which is the weight balancing both HNC los
 
 2). for running scripts, please refer to './imagenet/running-script.sh'
 
-3). results
-
 ### Citation
 If you find this repository helpful, please consider citing:
 
